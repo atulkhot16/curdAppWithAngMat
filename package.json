@@ -6,21 +6,30 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "start:json-server": "node_modules/json-server/lib/bin.js --port=4000 --host=127.0.0.1 db.json"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
+    "@angular/cdk": "^13.0.0",
     "@angular/common": "^14.2.0",
     "@angular/compiler": "^14.2.0",
     "@angular/core": "^14.2.0",
     "@angular/forms": "^14.2.0",
+    "@angular/material": "^13.0.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "bootstrap": "^4.6.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.7.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "chalk": "^4.1.0",
+    "json-server": "^0.16.3",
+    "lowdb": "^1.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.12",
@@ -36,3 +45,6 @@
     "typescript": "~4.7.2"
   }
 }
+
+
+  

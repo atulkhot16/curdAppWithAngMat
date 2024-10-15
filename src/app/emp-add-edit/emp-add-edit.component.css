@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+
+.row mat-form-field {
+    width: 100%;
+}
+
+.mat-radio-button~.mat-radio-button {
+    margin-left: 16px;
+}
+.action{
+    padding: 0 25px 20px;
+}
+.action button{
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
